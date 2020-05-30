@@ -16,22 +16,13 @@ namespace ReflectionDemo
             _number2 = number2;
         }
 
-        public void Sum()
+        public int Sum()
         {
-            Console.WriteLine("{0} + {1} = {2}", _number1, _number2, (_number1 + _number2));
-        }
-
-        public void Sum(int number1, int number2)
+            return _number1 + _number2;
+        }       
+        public int Multiply()
         {
-            Console.WriteLine("{0} + {1} = {2}", number1, number2, (number1 + number2));
-        }
-        public void Multiply()
-        {
-            Console.WriteLine("{0} * {1} = {2}", _number1, _number2, (_number1 * _number2));
-        }
-        public void Multiply(int number1, int number2)
-        {
-            Console.WriteLine("{0} * {1} = {2}", number1, number2, (number1 * number2));
-        }
+            return _number1 * _number2;
+        }       
     }
 }
