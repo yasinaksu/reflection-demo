@@ -19,10 +19,10 @@ namespace ReflectionDemo
         public int Sum()
         {
             return _number1 + _number2;
-        }       
-        public int Multiply()
+        }
+        public int Multiply(int number1, int number2)
         {
-            return _number1 * _number2;
-        }       
+            return number1 * number2;
+        }
     }
 }
